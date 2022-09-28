@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Prayer Time",
+    "img": "https://img.freepik.com/free-photo/muslim-praying-sujud-posture_53876-25222.jpg?w=740&t=st=1664375647~exp=1664376247~hmac=7c579ff51efbd054b06ec4d50aa6d65d61ee90f84071781ad2ec8c825604568a",
+    "time": "20"
+  },
+  {
+    "id": 2,
+    "title": "Learn Coding",
+    "img": "https://img.freepik.com/free-photo/portrait-artificial-intelligence-app-developer-sitting-down-typing-laptop-fixing-glasses-looking-up-smiling-camera-programer-using-portable-computer-innovating-cloud-computing_482257-40643.jpg?w=900&t=st=1664375808~exp=1664376408~hmac=c8463d2494f04f8b1457c4239f37be48fe1b8cc57e03978d5e502c2330fd482c:",
+    "time": "60"
+  },
+  {
+    "id": 3,
+    "title": "Going Versity",
+    "img": "https://img.freepik.com/premium-photo/closeup-boy-street-with-backpack-colors-ukrainian-flag-yellow-blue-book_594511-765.jpg",
+    "time": 120
+  },
+  {
+    "id": 4,
+    "title": "Playing Football",
+    "img": "https://img.freepik.com/premium-photo/football-scene-with-competing-football-players-stadium-3d-rendering_207634-1648.jpg?w=826",
+    "time": 50
+  },
+  {
+    "id": 5,
+    "title": "Reading Books",
+    "img": "https://img.freepik.com/premium-photo/man-home-with-glasses-reading-book_23-2148306564.jpg?w=826",
+    "time": 1
+  },
+  {
+    "id": 6,
+    "title": "Going to Gym",
+    "img": "https://img.freepik.com/premium-photo/give-it-everything-you-got-shot-young-man-working-out-with-barbell-gym_590464-62030.jpg"
+  }
+]
