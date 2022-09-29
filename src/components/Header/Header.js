@@ -7,7 +7,7 @@ const Header = () => {
     <div className="header">
       {/* header icon  */}
       <div className="dumb-icon"><GiStrong></GiStrong></div>
-      <h1>My Daily Activities</h1>
+      <h1 className="header-title">My Daily Activities</h1>
     </div>
   );
 };
