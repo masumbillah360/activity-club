@@ -1,7 +1,7 @@
 import React from 'react';
 import './Profile.css'
 
-const Profile = () => {
+const Profile = ({totalTimes}) => {
     return (
         <div className='profile-container'>
             <div className='profile-section'>
@@ -24,7 +24,7 @@ const Profile = () => {
             <div>
                 <h4>Activity Details</h4>
                 <div>
-                    <h3 className='show-time'>Excersize time : 0 Hrs</h3>
+                    <h3 className='show-time'>Excersize time : {totalTimes} Hrs</h3>
                     <h3 className='show-time'>Break time : 0 Min</h3>
                 </div>
                 <div className='done-btn-container'>
