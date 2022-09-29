@@ -2,13 +2,16 @@ import React from 'react';
 import './Activities.css'
 
 const Activites = ({info}) => {
-    // console.log(info);
+    const {title, desc, time, working_time }= info;
+
     return (
-        <div>
+        <div className='article-perpage'>
             <img className='thumbnail' src={info.img} alt="img" />
-            <h1>{info.title}</h1>
-            <p>{info.id}</p>
-            <button>Add To Cart</button>
+            <h3>{title}</h3>
+            <p>{desc?desc.slice(0,140)+"...":"not found"}</p>
+            <h4>Time : {time} Hour</h4>
+            <h5>Working Time : {working_time}</h5>
+            <button className='add-btn'>Add To List</button>
         </div>
     );
 };
