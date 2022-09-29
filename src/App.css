@@ -1,4 +1,36 @@
 .container {
   display: grid;
   grid-template-columns: 3fr 1fr;
+  grid-template-areas: home profile;
+  gap: 20px;
+  padding: 0px 20px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .container{
+    grid-template-columns: 2fr 1fr;
+  }
+  .article{
+    grid-template-columns: 1fr;
+  }
+  
+}
+
+@media only screen and (max-width: 576px) {
+  .container{
+    grid-template-columns: 1fr;
+    grid-template-areas: profile home;
+    grid-auto-flow: column-reverse;
+  }
+  
+.home{
+  grid-row: 2;
+}
+.profile{
+  grid-row: 1;
+}
+.article{
+  grid-template-columns: 1fr;
+}
 }
