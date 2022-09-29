@@ -5,6 +5,7 @@ import "./Header.css";
 const Header = () => {
   return (
     <div className="header">
+      {/* header icon  */}
       <span className="dumb-icon"><FaDumbbell></FaDumbbell></span>
       <h1>My Daily Activities</h1>
     </div>
