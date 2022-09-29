@@ -23,7 +23,7 @@ const Profile = ({totalTimes}) => {
           })
     }
     return (
-        <div className='profile-container'>
+        <div>
             <div className='profile-section'>
                 <img className='profile-image' src="images.jpg" alt="profilePhoto" />
                 <div>

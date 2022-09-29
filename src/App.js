@@ -12,11 +12,11 @@ function App() {
   },[times]);
   return (
     <div className="container">
-      <div>
+      <div className='acitvity-container'>
         <Header></Header>
         <Activities times={times} setTimes={setTimes}></Activities>
       </div>
-      <div>
+      <div className='profile-container'>
         <Profile totalTimes={totalTimes}></Profile>
       </div>
     </div>
