@@ -11,6 +11,9 @@
   .container{
     grid-template-columns: 2fr 1fr;
   }
+  .article-container{
+    grid-template-columns: 1fr;
+  }
 }
 @media screen and (max-width: 576px){
   .container{
@@ -21,7 +24,9 @@
   }
   .profile-container{
     grid-row: 1;
-    position: relative;
+  }
+  .article-container{
+    grid-template-columns: 1fr;
   }
 }
 

@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
-import "./App.css";
 import Activities from "./components/Activities/Activities";
 import Blog from "./components/Blog/Blog";
 import Header from "./components/Header/Header";
 import Profile from "./components/Profile/Profile";
+
+import "./App.css";
 
 function App() {
   const [times, setTimes] = useState([]);

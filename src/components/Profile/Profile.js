@@ -83,6 +83,7 @@ const Profile = ({ totalTimes }) => {
             draggable
             pauseOnHover
           />
+          
         </div>
       </div>
     </div>
