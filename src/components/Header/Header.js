@@ -1,12 +1,12 @@
 import React from "react";
-import { FaDumbbell } from "react-icons/fa";
+import { GiStrong } from "react-icons/gi";
 import "./Header.css";
 
 const Header = () => {
   return (
     <div className="header">
       {/* header icon  */}
-      <span className="dumb-icon"><FaDumbbell></FaDumbbell></span>
+      <div className="dumb-icon"><GiStrong></GiStrong></div>
       <h1>My Daily Activities</h1>
     </div>
   );
