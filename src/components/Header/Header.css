@@ -6,7 +6,9 @@
   justify-content: center;
   align-items: center;
 }
-.header > img {
-  width: 50px;
-  height: 40px;
+.dumb-icon{
+  font-size: 30px;
+  color: hotpink;
+  padding-top: 10px;
+  padding-right: 10px;
 }
