@@ -2,16 +2,19 @@ import React, { useEffect, useState } from 'react';
 import './Profile.css'
 
 const Profile = ({totalTimes}) => {
-    const [breaktime, setBreakTime] = useState(0);
+    const [breakTime, setBreakTime] = useState(0);
     useEffect(()=>{
         const getTime = localStorage.getItem('break-time');
         setBreakTime(getTime)
-    },[breaktime])
+    },[breakTime])
 
     const handleBreakTime =(event)=>{
         const getTime = event.target.innerText;
         localStorage.setItem('break-time', getTime);
         setBreakTime(getTime);
+    }
+    const handleComplete =()=>{
+        console.log(breakTime);
     }
     return (
         <div className='profile-container'>
@@ -36,10 +39,10 @@ const Profile = ({totalTimes}) => {
                 <h4>Activity Details</h4>
                 <div>
                     <h3 className='show-time'>Excersize time : {totalTimes} Hrs</h3>
-                    <h3 className='show-time'>Break time : {breaktime} Min</h3>
+                    <h3 className='show-time'>Break time : {breakTime} Min</h3>
                 </div>
                 <div className='done-btn-container'>
-                    <button className='done-btn'>Activity complete</button>
+                    <button onClick={handleComplete} className='done-btn'>Activity complete</button>
                 </div>
             </div>
         </div>
