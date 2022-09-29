@@ -22,7 +22,7 @@ const Profile = ({ totalTimes }) => {
     setBreakTime(getTime);
   };
   const handleComplete = () => {
-    toast.success('Congratulations !', {
+    toast.success('Congratulations ! You Done The Works', {
         position: "top-center",
         autoClose: 1000,
         hideProgressBar: true,
@@ -72,17 +72,7 @@ const Profile = ({ totalTimes }) => {
             Activity complete
           </button>
           {/* toastify  */}
-          <ToastContainer
-            position="top-center"
-            autoClose={1000}
-            hideProgressBar
-            newestOnTop
-            closeOnClick
-            rtl={false}
-            pauseOnFocusLoss
-            draggable
-            pauseOnHover
-          />
+          <ToastContainer />
           
         </div>
       </div>
