@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Swal from 'sweetalert2'
 import './Profile.css'
 
 const Profile = ({totalTimes}) => {
@@ -14,7 +15,12 @@ const Profile = ({totalTimes}) => {
         setBreakTime(getTime);
     }
     const handleComplete =()=>{
-        console.log(breakTime);
+        Swal.fire({
+            title: 'Success!',
+            text: 'Done Your Activity',
+            icon: 'success',
+            confirmButtonText: 'Continue'
+          })
     }
     return (
         <div className='profile-container'>
