@@ -6,9 +6,11 @@ import Profile from "./components/Profile/Profile";
 function App() {
   return (
     <div className="container">
-      <Header></Header>
       <div>
+        <Header></Header>
         <Activities></Activities>
+      </div>
+      <div>
         <Profile></Profile>
       </div>
     </div>
