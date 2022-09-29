@@ -3,10 +3,15 @@ import Swal from 'sweetalert2'
 import './Profile.css'
 
 const Profile = ({totalTimes}) => {
-    const [breakTime, setBreakTime] = useState(0);
+    const [breakTime, setBreakTime] = useState("0");
     useEffect(()=>{
         const getTime = localStorage.getItem('break-time');
-        setBreakTime(getTime)
+        if(getTime){
+            setBreakTime(getTime)
+        }
+        else{
+            setBreakTime("0")
+        }
     },[breakTime])
 
     const handleBreakTime =(event)=>{
