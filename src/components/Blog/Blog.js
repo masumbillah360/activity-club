@@ -17,10 +17,10 @@ const Blog = () => {
                 <h5>Answer: </h5> 
                 <p>1. Setting up a Subscription </p>
                 <p>2. Manually Change the DOM in react components </p>
-                <p>3.useEffect Runs after every render </p>
+                <p>3. useEffect Runs after every render </p>
                 <p>4. useEffect Manage state updates. </p> 
                 <p>5. useEffect can teakes dependency for updating or re-rendering DOM. </p> 
-                <p>6. useEffect can handle all side-effect programming logic.</p>
+                <p>6. useEffect can handle all side-effect like Timer, Subscriptions etc etc .</p>
             </article>
         </section>
     );
