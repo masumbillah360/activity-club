@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Activites from '../Activities/Activites';
+import Header from '../Header/Header';
 import './Home.css'
 
 const Home = () => {
@@ -12,8 +13,8 @@ const Home = () => {
     // console.log(info);
     return (
         <div>
+            <Header></Header>
             <div>
-                <h1>Daily Activities</h1>
                 <h4>Selecte Today's Exercice</h4>
             </div>
             <div className="article">
