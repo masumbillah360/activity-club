@@ -1,15 +1,14 @@
 import "./App.css";
-import Home from "./components/Home/Home";
+import Activities from "./components/Activities/Activities";
+import Header from "./components/Header/Header";
 import Profile from "./components/Profile/Profile";
 
 function App() {
   return (
     <div className="container">
-      <div className="home">
-        <Home></Home>
-      </div>
-
-      <div className="profile">
+      <Header></Header>
+      <div>
+        <Activities></Activities>
         <Profile></Profile>
       </div>
     </div>
